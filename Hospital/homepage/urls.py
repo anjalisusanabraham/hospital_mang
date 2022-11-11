@@ -8,6 +8,7 @@ urlpatterns=[
     path('about',views.homepage_about),
     path('blogside',views.homepage_blogside),
     path('blogsingle',views.homepage_blogsingle),
-    path('confirmation',views.homepage_confirmation)
+    path('confirmation',views.homepage_confirmation),
+    path('doctor',views.homepage_doctor)
 
 ]

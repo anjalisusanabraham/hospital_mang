@@ -1,0 +1,33 @@
+{% extends 'Doctor_template/masterdepartment.html' %}
+{% load static %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+
+<section class="section department-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="department-img">
+                    <img src="{% static 'images/department/womenbg.jpg' %}" alt=""  width="100%" height="500px">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- <div class="col-lg-8"> -->
+            <div class="department-content mt-5">
+                <h3 class="text-md">Medecine and Health</h3>
+                <div class="divider my-4"></div>
+                <p class="lead">Our team of Obstetrics and gynaecologists at the department provide comprehensive
+                    treatment and are capable of supporting women throughout their life starting from pre-pregnancy
+                    period to menopause and beyond.
+                    <br>The department is supported by all multi disciplinary, super speciality department and world
+                    class infrastructure to handle any medical complications.<br><br>
+                    The department is powered by an optimum mix of experience, knowledge and infrastructure. With a
+                    legeacy of over 3 decades in maternity care we promise to deliver happiness.
+                </p>
+
+    {% endblock %}

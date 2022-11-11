@@ -20,6 +20,8 @@ def homepage_blogsingle(request):
 def homepage_confirmation(request):
     return render(request,'homepage_template/confirmation.html')
 
+def homepage_doctor(request):
+    return render(request,'homepage_template/doctor.html')
     
 
 
